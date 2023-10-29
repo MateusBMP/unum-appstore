@@ -1,5 +1,7 @@
 # unum-appstore
 
+> **Original project by [LedgeDash](https://github.com/LedgeDash/unum-appstore)**
+
 Each application contains a unum implementation (under directory `unum`) and a
 Step Functions implementation (under directory `step-functions`).
 
@@ -75,9 +77,9 @@ unum implementations contain
   3. A `unum-template.yaml` that specifies workflow-wide configurations.
      `unum-cli` can transform `unum-template.yaml` to platform specific template
      files, such as AWS SAM template. For more details, see the [unum cli
-     documentations](https://github.com/LedgeDash/unum-compiler/blob/main/README.md#getting-started)
+     documentations](https://github.com/MateusBMP/unum/blob/main/README.md#getting-started)
      and the [unum template
-     documentations](https://github.com/LedgeDash/unum-compiler/blob/main/docs/template.md)
+     documentations](https://github.com/MateusBMP/unum/blob/main/docs/template.md)
   4. A `common` directory that contains the unum runtime libraries
   5. One or more workflow definitions, such as Step Functions state machines.
      For more information, see the [unum frontend documentation]().
@@ -101,7 +103,7 @@ definition such as a Step Functions state machine.
 Once all functions have a `unum-config.json` file under their directory, you can
 build the workflow with `unum-cli build`. You can specify which serverless
 platform to build against. For more details, see the [unun cli
-documentation](https://github.com/LedgeDash/unum-compiler/blob/main/README.md#getting-started).
+documentation](https://github.com/MateusBMP/unum/blob/main/README.md#getting-started).
 
 
 
